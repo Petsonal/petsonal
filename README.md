@@ -1,4 +1,4 @@
-### Hi there 👋
+### Petsonal - Digital pet for every personal 👋
 
 **Petsonal/petsonal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
