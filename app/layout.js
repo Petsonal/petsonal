@@ -22,7 +22,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="nextra-banner-hidden">
-        {/* <ThemeProvider> */}
+        <ThemeProvider
+          attribute="class"
+          disableTransitionOnChange
+          defaultTheme={"light"}
+          storageKey={'selectedPackageManager'}
+          forcedTheme={"light"}
+        >
           <div dir="ltr">
             <Header />
             <Body>
@@ -30,7 +36,7 @@ export default function RootLayout({ children }) {
             </Body>
             <Footer />
           </div>
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
       </body>
     </html>
   );
